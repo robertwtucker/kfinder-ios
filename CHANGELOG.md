@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+
+### Added
+-
+
+### Changed
+-
+
 ## [v0.3.0][v0.3.0] - 2017-02-15
 Began migration to a tab-based interface -- currently Home, Search and Settings.
 
