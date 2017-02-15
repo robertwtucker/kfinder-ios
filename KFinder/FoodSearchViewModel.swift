@@ -37,7 +37,7 @@ struct FoodSearchViewModel {
     //MARK: Initialization
 
     init(realm: Realm) {
-        let foodItemsObservable = Observable.from(realm.objects(FoodItem.self))
+        let foodItemsObservable = Observable.collection(from: realm.objects(FoodItem.self))
 
         navigationBarTitle = .just("Foods")
 
